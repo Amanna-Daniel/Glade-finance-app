@@ -1,0 +1,81 @@
+.card5-container {
+    width: 960px;
+    height: 500px;
+    border-radius: 32px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 0 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    line-height: 24px;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 64px;
+    background: #2c6dea;
+  }
+  
+  .card5-image {
+    width: 477px;
+    height: 477px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .card5-text{
+    flex-basis: 50%;
+    text-align: left;
+    line-height: 24px;
+  }
+  
+  /* .card1-content {
+    flex-grow: 1;
+    width: 1000px;
+    height: auto;
+  } */
+
+  h2{
+    width: 453px;
+    height: 144px;
+    line-height: 48px;
+  }
+  
+  .card5-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #fff;
+  }
+  
+  
+  .card5-getStarted{
+    display: flex;
+    gap: 11px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+  }
+  .card5-getStarted img{
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+    margin-top: 3.5px;
+  }
+  .card5-description{
+    color: #fff;
+    width: 453px;
+    height: 130px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 50px;
+    line-height: 26px;
+  }
+
+  
+  
+  
+  

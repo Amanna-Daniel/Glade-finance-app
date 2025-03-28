@@ -1,0 +1,81 @@
+.cardB-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: normal 35px;
+    border-radius: 30px;
+    width: 1088px;
+    height: 500px;
+    text-align: left;
+    margin: 30px 127px;
+    justify-content: space-between;
+
+}
+.left-cardB-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 32px;
+  flex-basis: 50%;
+  background: #ff6f00;
+  width: 526px;
+  height: 485px;
+  padding: 0 20px;
+}
+.left-cardB-content{
+   padding: 0 20px;
+   text-align: center;
+   text-align: left;
+   align-self: center;
+}
+.right-cardB-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background: #292929;
+   width: 525px;
+   height: 485px;
+   border-radius: 32px;
+   margin-left: 0;
+   
+}
+.cardB-text{
+    font-size: 48px;
+    color: #fff;
+    text-align: left;
+    margin: 0 0 4px;
+    line-height: 48px;
+    width: 462px;
+    height: 144px;
+}
+.cardb-description{
+    font-size: 18px;
+    text-align: left;
+    width: 462px;
+    height: 104px;
+    line-height: 26px;
+    color: #fff;
+}
+
+.CardB-get-Started img{
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+    margin-top: 3.5px;
+  }
+
+  .CardB-get-Started{
+    display: flex;
+    gap: 11px;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    margin-top: 60px;
+  }
+
+  span{
+    color: #fff;
+    display: flex;
+    gap: 11px;
+  }

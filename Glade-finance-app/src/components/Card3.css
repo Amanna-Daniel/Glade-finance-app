@@ -1,0 +1,72 @@
+.card3-container {
+    width: 960px;
+    height: 500px;
+    border-radius: 32px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 0 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    line-height: 24px;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 64px;
+    background: #2c6dea;
+  }
+  
+  .card3-image img {
+    width: 477px;
+    height: 312px;
+    /* object-fit: cover; */
+    border-radius: 8px;
+  }
+  
+  /* .card1-content {
+    flex-grow: 1;
+    width: 1000px;
+    height: auto;
+  } */
+  
+  .card3-title {
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0 0 4px;
+    color: #fff;
+    width: 440px;
+    height: 192px;
+    text-align: left;
+    line-height: 48px;
+  }
+
+  .card3-title h2{
+    height: auto;
+  }
+  
+  .card3-description {
+    font-size: 18px;
+    color: #fff;
+    margin-top: -5px;
+  }
+
+  span{
+    margin-top: 100px;
+  }
+  
+  .card3-getStarted{
+    display: flex;
+    gap: 11px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+  }
+  .card3-getStarted img{
+    width: 18px;
+    height: 18px;
+    filter: brightness(0) invert(1);
+    margin-top: 3.5px;
+  }
+ 
